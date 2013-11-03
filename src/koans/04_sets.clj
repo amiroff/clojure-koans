@@ -1,6 +1,6 @@
 (meditations
   "You can create a set by converting another collection"
-  (= #{3} (set __))
+  (= #{3} (set [3]))
 
   "Counting them is like counting other collections"
   (= __ (count #{1 2 3}))
